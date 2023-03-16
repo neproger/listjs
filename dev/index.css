@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+body {
+  color: #d4d4d4;
+  font-family: "Montserrat", sans-serif;
+  background-color: #1a1a1a;
+  min-width: 300px;
+  margin: 20px 25px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+footer {
+  text-align: right;
+}
+
+.marker {
+  background-color: #6d6968;
+}
+
+.align_end {
+  text-align: end;
+}
+
+.align_center {
+  text-align: center;
+}
+
+.box {
+  padding: 8px;
+  min-width: 30px;
+  margin: 2px;
+  border-radius: 8px;
+  background-color: #353333;
+}
+
+.max_width {
+  width: 100%;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.row {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex_basis_10 {
+  -ms-flex-preferred-size: 10%;
+  flex-basis: 10%;
+}
+
+.flex_basis_20 {
+  -ms-flex-preferred-size: 20%;
+  flex-basis: 20%;
+}
+
+.flex_basis_30 {
+  -ms-flex-preferred-size: 20%;
+  flex-basis: 20%;
+}
+
+.flex_basis_40 {
+  -ms-flex-preferred-size: 40%;
+  flex-basis: 40%;
+}
+
+.item3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 30px;
+  -ms-flex-preferred-size: 10%;
+  flex-basis: 10%;
+}
+
+.h1 {
+  font-size: 40px;
+}
+
+.h2 {
+  font-size: 30px;
+}
+
+input[typecheckbox] {
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+table th {
+  border-radius: 6px;
+  font-weight: normal;
+  text-align: center;
+}
+
+table td {
+  padding-left: 4px;
+  background-color: #383838;
+  border-radius: 6px;
+}
+
+table td.remove {
+  cursor: pointer;
+}
+
+.lable {
+  font-size: 12px;
+}
+
+.customer {
+  font-size: 12px;
+}
+
+.length {
+  font-size: 24px;
+}
+
+.width {
+  font-size: 24px;
+}
+
+.id {
+  text-align: center;
+}
+
+.quantity {
+  text-align: center;
+}
+
+.svgicon {
+  fill: red;
+}

@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script></script>
+  </head>
+  <body>
+    <div class="row box link" onclick="make_data_list()">Детали в крой</div>
+    <div class="datatable">
+      <table id="datatable">
+        <tbody>
+          <tr>
+            <th class="id_head">N</th>
+            <th class="length_head">Длина</th>
+            <th class="length_head">
+              <img src="./reverse.svg" alt="remove" width="26" />
+            </th>
+            <th class="width_head">Ширина</th>
+            <th class="quantity_head">Кол</th>
+            <th class="allow_rotation_head">Вра</th>
+            <th class="lable_head">Слой</th>
+            <th class="customer_head">Заметки</th>
+            <th class="material_head">Мат</th>
+            <th class="top_name_head">▴</th>
+            <th class="left_name_head">◂</th>
+            <th class="bottom_name_head">▾</th>
+            <th class="right_name_head">▸</th>
+            <th class="top_thick_grinding_head">ЗапД</th>
+            <th class="left_thick_grinding_head">ЗапШ</th>
+            <th class="useit_head">▾</th>
+            <th class="align_center">
+              <img src="./remove.svg" alt="remove" width="26" />
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="row box link label" onclick="downloadXML()">Скачать</div>
+    <script src="main.js"></script>
+    <script>
+      make_data_list();
+    </script>
+  </body>
+</html>
